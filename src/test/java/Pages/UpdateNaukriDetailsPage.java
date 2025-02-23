@@ -34,7 +34,7 @@ public class UpdateNaukriDetailsPage {
         Thread.sleep(3000);
         robot.keyPress(java.awt.event.KeyEvent.VK_ENTER);
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        Thread.sleep(Duration.ofSeconds(10));
     }
 
     public String getUpdatedDateLabel(){
