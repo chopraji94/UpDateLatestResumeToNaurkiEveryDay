@@ -43,6 +43,6 @@ public class GoogleLoginPage {
         ClickNextButton();
         EnterPassword(password);
         ClickNextButton();
-
+        Thread.sleep(Duration.ofSeconds(10));
     }
 }
